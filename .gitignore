@@ -1,0 +1,4 @@
+data/waitlist.json
+data/.ratelimit
+server.py
+.DS_Store

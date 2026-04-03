@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELA — Персональная система здоровья для женщин 35+</title>
+    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+        <!-- Hero -->
+        <header class="hero">
+            <div class="container">
+                <div class="logo">VELA</div>
+                <h1>Пойми, что происходит с&nbsp;твоим телом</h1>
+                <p class="subtitle">AI-платформа, которая помогает женщинам 35+ управлять здоровьем, энергией и&nbsp;самочувствием на&nbsp;основе анализов и&nbsp;ежедневного состояния.</p>
+                <a href="#waitlist" class="badge">Скоро запуск &mdash; запишись в&nbsp;лист ожидания</a>
+            </div>
+        </header>
+
+        <!-- Value Props -->
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">&#x1F9EA;</div>
+                        <h3>Анализы &rarr; понятный план</h3>
+                        <p>Загрузи результаты анализов и&nbsp;получи персональные рекомендации вместо непонятных цифр.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#x26A1;</div>
+                        <h3>Ежедневный протокол</h3>
+                        <p>Персональный план добавок с&nbsp;дозировкой, временем приёма и&nbsp;формой &mdash; каждый день.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#x1F4C8;</div>
+                        <h3>Паттерны и&nbsp;адаптация</h3>
+                        <p>Система отслеживает твоё состояние и&nbsp;адаптирует протокол под&nbsp;изменения.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">&#x1F33F;</div>
+                        <h3>Цикл и&nbsp;менопауза</h3>
+                        <p>Учитывает фазу цикла, перименопаузу и&nbsp;менопаузу для&nbsp;точных рекомендаций.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Example Protocol -->
+        <section class="example">
+            <div class="container">
+                <div class="example-label">Пример</div>
+                <h2>Вот что ты получишь</h2>
+                <p class="example-subtitle">Персональный протокол Анны, 41 год &mdash; на основе её анализов и самочувствия за 3 недели</p>
+
+                <div class="protocol-card">
+                    <!-- User header -->
+                    <div class="protocol-header">
+                        <div class="protocol-avatar">А</div>
+                        <div>
+                            <div class="protocol-name">Анна, 41 год &middot; Перименопауза</div>
+                            <div class="protocol-meta">Жалобы при регистрации: усталость, плохой сон, тревожность, выпадение волос</div>
+                        </div>
+                        <div class="protocol-date">Неделя 3 из 4</div>
+                    </div>
+
+                    <!-- Today's state -->
+                    <div class="state-section">
+                        <div class="section-title">&#x1F4CA; Самочувствие сегодня</div>
+                        <div class="state-grid">
+                            <div class="state-item">
+                                <div class="state-label">Энергия</div>
+                                <div class="state-bar"><div class="state-fill" style="width:55%;background:#ED8936"></div></div>
+                                <div class="state-val">5.5 / 10</div>
+                            </div>
+                            <div class="state-item">
+                                <div class="state-label">Сон</div>
+                                <div class="state-bar"><div class="state-fill" style="width:60%;background:#9F7AEA"></div></div>
+                                <div class="state-val">6 ч, неглубокий</div>
+                            </div>
+                            <div class="state-item">
+                                <div class="state-label">Стресс</div>
+                                <div class="state-bar"><div class="state-fill" style="width:70%;background:#E53E3E"></div></div>
+                                <div class="state-val">Высокий</div>
+                            </div>
+                            <div class="state-item">
+                                <div class="state-label">Настроение</div>
+                                <div class="state-bar"><div class="state-fill" style="width:50%;background:#63B3ED"></div></div>
+                                <div class="state-val">Нейтральное</div>
+                            </div>
+                        </div>
+                        <div class="state-trend">&#x1F4C8; За 3 недели: энергия +1.8 балла, сон +42 мин в среднем</div>
+                    </div>
+
+                    <!-- Lab summary -->
+                    <div class="lab-summary">
+                        <div class="section-title">&#x1F9EA; Анализы &mdash; 12 показателей</div>
+                        <div class="lab-grid">
+                            <div class="lab-item lab-low">
+                                <div class="lab-left">
+                                    <span class="lab-badge lab-badge-low">дефицит</span>
+                                    <div class="lab-name">Ферритин</div>
+                                    <div class="lab-val">18 нг/мл <span class="lab-norm">оптимум 40–150</span></div>
+                                </div>
+                                <div class="lab-impact">влияет на энергию, волосы</div>
+                            </div>
+                            <div class="lab-item lab-low">
+                                <div class="lab-left">
+                                    <span class="lab-badge lab-badge-low">дефицит</span>
+                                    <div class="lab-name">Витамин D</div>
+                                    <div class="lab-val">22 нг/мл <span class="lab-norm">оптимум 50–80</span></div>
+                                </div>
+                                <div class="lab-impact">иммунитет, настроение, кости</div>
+                            </div>
+                            <div class="lab-item lab-border">
+                                <div class="lab-left">
+                                    <span class="lab-badge lab-badge-border">погранично</span>
+                                    <div class="lab-name">Магний</div>
+                                    <div class="lab-val">0.72 ммоль/л <span class="lab-norm">оптимум 0.85–1.0</span></div>
+                                </div>
+                                <div class="lab-impact">сон, стресс, мышцы</div>
+                            </div>
+                            <div class="lab-item lab-border">
+                                <div class="lab-left">
+                                    <span class="lab-badge lab-badge-border">погранично</span>
+                                    <div class="lab-name">ТТГ (щитовидка)</div>
+                                    <div class="lab-val">3.8 мЕд/л <span class="lab-norm">оптимум 1.0–2.5</span></div>
+                                </div>
+                                <div class="lab-impact">усталость, вес, температура</div>
+                            </div>
+                            <div class="lab-item lab-ok">
+                                <div class="lab-left">
+                                    <span class="lab-badge lab-badge-ok">норма</span>
+                                    <div class="lab-name">B12</div>
+                                    <div class="lab-val">380 пг/мл <span class="lab-norm">оптимум 300–900</span></div>
+                                </div>
+                                <div class="lab-impact">нервная система, энергия</div>
+                            </div>
+                            <div class="lab-item lab-ok">
+                                <div class="lab-left">
+                                    <span class="lab-badge lab-badge-ok">норма</span>
+                                    <div class="lab-name">Глюкоза</div>
+                                    <div class="lab-val">4.9 ммоль/л <span class="lab-norm">оптимум 3.9–5.5</span></div>
+                                </div>
+                                <div class="lab-impact">метаболизм, энергия</div>
+                            </div>
+                        </div>
+                        <div class="lab-note">+ ещё 6 показателей в норме (кортизол, эстрадиол, СРБ, гемоглобин, цинк, фолиевая)</div>
+                    </div>
+
+                    <!-- Daily protocol -->
+                    <div class="daily-protocol">
+                        <div class="section-title">&#x1F331; Протокол на сегодня &mdash; 7 позиций</div>
+                        <div class="day-section">
+                            <div class="day-label">&#x2600;&#xFE0F; Утром натощак — за 30 мин до еды</div>
+                            <div class="supp-list">
+                                <div class="supp-item">
+                                    <div class="supp-dot supp-dot-orange"></div>
+                                    <div class="supp-info">
+                                        <div class="supp-name">Железо бисглицинат</div>
+                                        <div class="supp-dose">30 мг &middot; запить водой, не кофе/чаем</div>
+                                    </div>
+                                    <div class="supp-tag">&#x26A1; приоритет</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="day-section">
+                            <div class="day-label">&#x1F31E; Утром с едой</div>
+                            <div class="supp-list">
+                                <div class="supp-item">
+                                    <div class="supp-dot supp-dot-yellow"></div>
+                                    <div class="supp-info">
+                                        <div class="supp-name">Витамин D3 5000 МЕ + K2 200 мкг</div>
+                                        <div class="supp-dose">Повышенная доза первые 8 недель, потом 2000 МЕ поддержка</div>
+                                    </div>
+                                    <div class="supp-tag">&#x26A1; приоритет</div>
+                                </div>
+                                <div class="supp-item">
+                                    <div class="supp-dot supp-dot-green"></div>
+                                    <div class="supp-info">
+                                        <div class="supp-name">Омега-3 (EPA+DHA)</div>
+                                        <div class="supp-dose">2 г &middot; с жирной едой для усвоения</div>
+                                    </div>
+                                    <div class="supp-tag">воспаление, гормоны</div>
+                                </div>
+                                <div class="supp-item">
+                                    <div class="supp-dot supp-dot-teal"></div>
+                                    <div class="supp-info">
+                                        <div class="supp-name">Коэнзим Q10</div>
+                                        <div class="supp-dose">200 мг &middot; поддержка митохондрий при ТТГ 3.8</div>
+                                    </div>
+                                    <div class="supp-tag">энергия клеток</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="day-section">
+                            <div class="day-label">&#x1F319; Вечером за 1 час до сна</div>
+                            <div class="supp-list">
+                                <div class="supp-item">
+                                    <div class="supp-dot supp-dot-purple"></div>
+                                    <div class="supp-info">
+                                        <div class="supp-name">Магний глицинат</div>
+                                        <div class="supp-dose">400 мг &middot; не путать с оксидом — он не усваивается</div>
+                                    </div>
+                                    <div class="supp-tag">&#x26A1; приоритет</div>
+                                </div>
+                                <div class="supp-item">
+                                    <div class="supp-dot supp-dot-blue"></div>
+                                    <div class="supp-info">
+                                        <div class="supp-name">Ашваганда KSM-66</div>
+                                        <div class="supp-dose">300 мг &middot; снижает кортизол, улучшает сон</div>
+                                    </div>
+                                    <div class="supp-tag">стресс, кортизол</div>
+                                </div>
+                                <div class="supp-item">
+                                    <div class="supp-dot supp-dot-pink"></div>
+                                    <div class="supp-info">
+                                        <div class="supp-name">L-теанин</div>
+                                        <div class="supp-dose">200 мг &middot; успокаивает без седации</div>
+                                    </div>
+                                    <div class="supp-tag">тревожность, сон</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compat-note">&#x26A0;&#xFE0F; Не совмещать: железо + магний (интервал минимум 2 часа)</div>
+                    </div>
+
+                    <!-- Weekly insights -->
+                    <div class="insights-section">
+                        <div class="section-title">&#x1F4A1; Инсайты за неделю</div>
+                        <div class="insight-list">
+                            <div class="insight-item insight-pattern">
+                                <div class="insight-icon-sm">&#x1F4C9;</div>
+                                <div class="insight-body">
+                                    <div class="insight-title">Паттерн усталости</div>
+                                    <div class="insight-desc">Энергия стабильно падает в среду-четверг. Совпадает с 20–22 днём цикла (лютеиновая фаза). Это норма при низком прогестероне — магний и ашваганда особенно важны в эти дни.</div>
+                                </div>
+                            </div>
+                            <div class="insight-item insight-positive">
+                                <div class="insight-icon-sm">&#x2B06;&#xFE0F;</div>
+                                <div class="insight-body">
+                                    <div class="insight-title">Сон улучшается</div>
+                                    <div class="insight-desc">За 3 недели средняя длительность сна выросла с 5.2 до 6.1 часа. Магний принят 18 из 21 дня — корреляция +0.74.</div>
+                                </div>
+                            </div>
+                            <div class="insight-item insight-warning">
+                                <div class="insight-icon-sm">&#x26A0;&#xFE0F;</div>
+                                <div class="insight-body">
+                                    <div class="insight-title">Внимание: ТТГ на верхней границе</div>
+                                    <div class="insight-desc">ТТГ 3.8 объясняет часть усталости и выпадение волос. Рекомендуем пересдать через 6 недель + добавить селен 100 мкг для поддержки щитовидки.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Next steps -->
+                    <div class="next-steps">
+                        <div class="section-title">&#x1F4CB; Что делать дальше</div>
+                        <div class="steps-list">
+                            <div class="step-item">
+                                <div class="step-num">1</div>
+                                <div class="step-text">Через <strong>4 недели</strong> пересдать ферритин и витамин D — проверить динамику</div>
+                            </div>
+                            <div class="step-item">
+                                <div class="step-num">2</div>
+                                <div class="step-text">Через <strong>6 недель</strong> пересдать ТТГ, Т3 свободный, Т4 свободный + добавить антитела к ТПО</div>
+                            </div>
+                            <div class="step-item">
+                                <div class="step-num">3</div>
+                                <div class="step-text">Добавить в дневник: <strong>отметки о цикле</strong> — система скорректирует протокол под каждую фазу</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Waitlist Form -->
+        <section class="waitlist" id="waitlist">
+            <div class="container">
+                <h2>Запишись в&nbsp;лист ожидания</h2>
+                <p class="form-subtitle">Будь среди первых, кто получит доступ. Это бесплатно.</p>
+
+                <form id="waitlistForm" action="submit.php" method="POST" novalidate>
+                    <div class="form-group">
+                        <label for="name">Имя <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Как тебя зовут?" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__">
+                        </div>
+                    </div>
+                    <p class="hint">Укажи хотя бы email или телефон, чтобы мы могли с тобой связаться.</p>
+
+                    <div class="form-group">
+                        <label for="problem">Что тебя беспокоит?</label>
+                        <div class="chips" id="problemChips">
+                            <button type="button" class="chip" data-value="Низкая энергия">Низкая энергия</button>
+                            <button type="button" class="chip" data-value="Плохой сон">Плохой сон</button>
+                            <button type="button" class="chip" data-value="Стресс и тревожность">Стресс и тревожность</button>
+                            <button type="button" class="chip" data-value="Гормональный дисбаланс">Гормональный дисбаланс</button>
+                            <button type="button" class="chip" data-value="Не понимаю свои анализы">Не понимаю свои анализы</button>
+                            <button type="button" class="chip" data-value="Проблемы с весом">Проблемы с весом</button>
+                        </div>
+                        <input type="hidden" id="problems" name="problems" value="">
+                        <textarea id="problem_text" name="problem_text" rows="2" placeholder="Или опиши своими словами (необязательно)"></textarea>
+                    </div>
+
+                    <div class="form-error" id="formError" style="display:none;"></div>
+
+                    <button type="submit" class="btn-submit" id="submitBtn">
+                        <span class="btn-text">Записаться</span>
+                        <span class="btn-loading" style="display:none;">Отправляем...</span>
+                    </button>
+                </form>
+
+                <div class="success-message" id="successMessage" style="display:none;">
+                    <div class="success-icon">&#x2714;</div>
+                    <h3>Ты в списке!</h3>
+                    <p>Мы сообщим тебе, когда всё будет готово.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="logo-small">VELA</div>
+                <p>Персональная система здоровья для женщин 35+</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+    (function() {
+        const form = document.getElementById('waitlistForm');
+        const chips = document.querySelectorAll('.chip');
+        const problemsInput = document.getElementById('problems');
+        const errorDiv = document.getElementById('formError');
+        const successDiv = document.getElementById('successMessage');
+        const submitBtn = document.getElementById('submitBtn');
+        const selected = new Set();
+
+        // Chip selection
+        chips.forEach(chip => {
+            chip.addEventListener('click', () => {
+                const val = chip.dataset.value;
+                if (selected.has(val)) {
+                    selected.delete(val);
+                    chip.classList.remove('active');
+                } else {
+                    selected.add(val);
+                    chip.classList.add('active');
+                }
+                problemsInput.value = Array.from(selected).join(', ');
+            });
+        });
+
+        // Phone formatting
+        const phoneInput = document.getElementById('phone');
+        phoneInput.addEventListener('input', function() {
+            let digits = this.value.replace(/\D/g, '');
+            if (digits.startsWith('8')) digits = '7' + digits.slice(1);
+            if (digits.length === 0) { this.value = ''; return; }
+            let formatted = '+7';
+            if (digits.length > 1) formatted += ' (' + digits.slice(1, 4);
+            if (digits.length > 4) formatted += ') ' + digits.slice(4, 7);
+            if (digits.length > 7) formatted += '-' + digits.slice(7, 9);
+            if (digits.length > 9) formatted += '-' + digits.slice(9, 11);
+            this.value = formatted;
+        });
+
+        // Form submit
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            errorDiv.style.display = 'none';
+
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = phoneInput.value.trim();
+
+            if (!name) {
+                showError('Пожалуйста, укажи своё имя.');
+                return;
+            }
+            if (!email && !phone) {
+                showError('Укажи хотя бы email или телефон.');
+                return;
+            }
+            if (email && !isValidEmail(email)) {
+                showError('Проверь правильность email.');
+                return;
+            }
+
+            submitBtn.querySelector('.btn-text').style.display = 'none';
+            submitBtn.querySelector('.btn-loading').style.display = 'inline';
+            submitBtn.disabled = true;
+
+            const data = new FormData(form);
+            fetch('submit.php', { method: 'POST', body: data })
+                .then(r => r.json())
+                .then(res => {
+                    if (res.ok) {
+                        form.style.display = 'none';
+                        document.querySelector('.form-subtitle').style.display = 'none';
+                        successDiv.style.display = 'block';
+                    } else {
+                        showError(res.error || 'Что-то пошло не так. Попробуй ещё раз.');
+                        resetBtn();
+                    }
+                })
+                .catch(() => {
+                    showError('Ошибка соединения. Попробуй ещё раз.');
+                    resetBtn();
+                });
+        });
+
+        function showError(msg) {
+            errorDiv.textContent = msg;
+            errorDiv.style.display = 'block';
+        }
+        function resetBtn() {
+            submitBtn.querySelector('.btn-text').style.display = 'inline';
+            submitBtn.querySelector('.btn-loading').style.display = 'none';
+            submitBtn.disabled = false;
+        }
+        function isValidEmail(e) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e);
+        }
+    })();
+    </script>
+</body>
+</html>
